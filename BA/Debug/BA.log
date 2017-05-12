@@ -1,0 +1,25 @@
+﻿Build started 9/13/2014 5:34:31 PM.
+     1>Project "C:\Users\Ku\Documents\Brendar - XPS\Computer Science (2nd Year)\Modules\Module 1 - Introduction to Computer Graphics\Coursework\Coursework 2 - Omar Hassan\BA-Advert\BA\BA.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BA.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BA.cpp
+         BA.cpp
+     1>c:\users\ku\documents\brendar - xps\computer science (2nd year)\modules\module 1 - introduction to computer graphics\coursework\coursework 2 - omar hassan\ba-advert\ba\ba.cpp(2327): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ku\Documents\Brendar - XPS\Computer Science (2nd Year)\Modules\Module 1 - Introduction to Computer Graphics\Coursework\Coursework 2 - Omar Hassan\BA-Advert\Debug\BA.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ku\Documents\Brendar - XPS\Computer Science (2nd Year)\Modules\Module 1 - Introduction to Computer Graphics\Coursework\Coursework 2 - Omar Hassan\BA-Advert\Debug\BA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ku\Documents\Brendar - XPS\Computer Science (2nd Year)\Modules\Module 1 - Introduction to Computer Graphics\Coursework\Coursework 2 - Omar Hassan\BA-Advert\Debug\BA.lib" /MACHINE:X86 Debug\BA.obj
+         Debug\stdafx.obj
+     1>BA.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         BA.vcxproj -> C:\Users\Ku\Documents\Brendar - XPS\Computer Science (2nd Year)\Modules\Module 1 - Introduction to Computer Graphics\Coursework\Coursework 2 - Omar Hassan\BA-Advert\Debug\BA.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Ku\Documents\Brendar - XPS\Computer Science (2nd Year)\Modules\Module 1 - Introduction to Computer Graphics\Coursework\Coursework 2 - Omar Hassan\BA-Advert\Debug\BA.exe;#1" /manifest Debug\BA.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\BA.unsuccessfulbuild".
+         Touching "Debug\BA.lastbuildstate".
+     1>Done Building Project "C:\Users\Ku\Documents\Brendar - XPS\Computer Science (2nd Year)\Modules\Module 1 - Introduction to Computer Graphics\Coursework\Coursework 2 - Omar Hassan\BA-Advert\BA\BA.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42
